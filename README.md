@@ -734,8 +734,6 @@ Potential improvements include:
 
 **Vanshika Srivastava**
 
-B.Tech – Information Technology
-Institute of Engineering and Technology, Lucknow
 
 ---
 
