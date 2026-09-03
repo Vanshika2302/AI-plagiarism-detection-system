@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: plagiarism-backend
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:db}:5432/${DB_NAME:plagiarism}
+    username: ${DB_USER:plagiarism}
+    password: ${DB_PASSWORD:plagiarism}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+ai:
+  service:
+    base-url: ${AI_SERVICE_URL:http://ai-service:8000}
+
+frontend:
+  origin: ${FRONTEND_ORIGIN:http://localhost:5173}
+
+jwt:
+  secret: ${JWT_SECRET:change-this-to-a-long-random-secret-in-production-min-32-chars}
+  expiration-ms: 86400000
