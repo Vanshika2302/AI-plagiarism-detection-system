@@ -717,19 +717,6 @@ Potential improvements include:
 
 ---
 
-# 💼 Resume Description
-
-### AI-Powered Plagiarism Detection System
-
-**Technologies:** React.js, Spring Boot, Java 21, Python, FastAPI, Sentence Transformers, PostgreSQL, pgvector, Docker
-
-* Developed a full-stack AI-powered plagiarism detection platform supporting **PDF, DOCX, TXT, and text-based submissions**.
-* Implemented a hybrid similarity engine combining **TF-IDF lexical similarity and Sentence Transformer semantic embeddings** to identify both exact and rephrased content.
-* Built a **Spring Boot REST API and FastAPI AI microservice architecture** with JWT authentication, document processing, similarity analysis, and analysis history.
-* Integrated **PostgreSQL with pgvector** for vector-based document similarity search and containerized the complete system using Docker Compose.
-
----
-
 # 👩‍💻 Author
 
 **Vanshika Srivastava**
